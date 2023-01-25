@@ -35,4 +35,5 @@ Je l’ai répartie en trois parties correspondant ainsi au HTML. Afin de bien d
 Rien de très original, je voulais reprendre exactement l’idée de la page 214, c'est-à-dire mettre des icones correspondant aux différents liens,
  malheureusement je n’ai pas réussi à percer le mystère.  
 
->*À titre indicatif, ma résolution d’écran est de : ‘1920 x 1080’*
+>*À titre indicatif, ma résolution d’écran est de : ‘1920 x 1080’. Le lien ci-dessous vous donnera un aperçu de mon travail*  
+[Visuel de la page](https://github.com/N-BLET/CSSZenGarden/blob/main/visuelPage.png)
