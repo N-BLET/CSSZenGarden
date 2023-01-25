@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Montserrat:wght@300;500&display=swap');
+
+*,
+body *{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+
+/****************
+*     FONTS     *
+****************/
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+h6{
+  font-family: 'Italianno', serif;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+h2{
+  font-size: 3.2rem;
+}
+
+.intro h1{
+  font-size: 6rem;
+}
+
+.intro h2{
+  font-size: 1.8rem;
+}
+h3{
+  font-size: 2.8rem;
+  color: #D95E01;
+}
+
+
+.intro h2,
+p{
+  font-family: 'Monserrat', sans-serif;
+  color:whitesmoke;
+}
+
+p{
+  font-size: 1rem;
+  line-height: 1.7rem;
+  text-align: left;
+}
+
+.intro h2{
+  font-weight: 700;
+  color: #420F05;
+}
+
+.intro h2 abbr{
+  text-decoration: none;
+  font-family: 'Italianno';
+  font-weight: 700;
+}
+
+a{
+  padding: 5px 25px;
+  text-decoration: none;
+  font-family: 'Italianno';
+  font-weight: 700;
+  color: #420F05;
+  font-size: 2rem;
+  position: relative;
+  text-decoration: none;
+}
+
+/*******************
+*     a | abbr     *
+*******************/
+a:hover{
+  color: #FFE6DE
+}
+
+
+abbr[title] {
+  text-decoration: none;
+  border: none;
+}
+.preamble abbr,
+.supporting div abbr,
+.requirements abbr {
+  border-bottom: 1px dotted #30e0ad;
+}
+.preamble abbr:hover:after,
+.supporting div abbr:hover:after,
+.requirements abbr:hover:after {
+  content: ' (' attr(title) ')';
+}
+.spin from {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+.spin to {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+.rise from {
+  top: 100%;
+}
+.rise to {
+  top: 165px;
+}
+.rise-short from {
+  top: 100%;
+}
+.rise-short to {
+  top: 275px;
+}
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-ms-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rise {
+  from {
+    top: 100%;
+  }
+  to {
+    top: 165px;
+  }
+}
+@-moz-keyframes rise {
+  from {
+    top: 100%;
+  }
+  to {
+    top: 165px;
+  }
+}
+@-ms-keyframes rise {
+  from {
+    top: 100%;
+  }
+  to {
+    top: 165px;
+  }
+}
+@-o-keyframes rise {
+  from {
+    top: 100%;
+  }
+  to {
+    top: 165px;
+  }
+}
+@keyframes rise {
+  from {
+    top: 100%;
+  }
+  to {
+    top: 165px;
+  }
+}
+@-webkit-keyframes rise-short {
+  from {
+    top: 100%;
+  }
+  to {
+    top: 275px;
+  }
+}
+@-moz-keyframes rise-short {
+  from {
+    top: 100%;
+  }
+  to {
+    top: 275px;
+  }
+}
+@-ms-keyframes rise-short {
+  from {
+    top: 100%;
+  }
+  to {
+    top: 275px;
+  }
+}
+@-o-keyframes rise-short {
+  from {
+    top: 100%;
+  }
+  to {
+    top: 275px;
+  }
+}
+@keyframes rise-short {
+  from {
+    top: 100%;
+  }
+  to {
+    top: 275px;
+  }
+}
+
+#zen-participation a, .requirements a{
+  color: #DA9814;
+}
+
+
+
+
+/**********************
+*       STRUCTURE     *
+**********************/
+
+.page-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#zen-supporting{
+  width: 75%;
+  background-image: url(../images/fond/fond_sombre.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+/***********************
+*      STYLE INTRO     *
+***********************/
+
+.intro{
+  background-image: url(../images/photo/clarinette.jpg);
+  content: '';
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 777px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+  text-justify: auto;
+
+}
+
+.intro h1{
+  width: 100%;
+  height: 200px;
+  background-image: url(../images/icone/Logo.png);
+  background-position: left 80px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: black;
+}
+
+.intro h2{ margin-bottom: 100px; }
+
+.intro a{
+  display: inline-block;
+  background-image: url(../images/icone/download.svg);
+  background-repeat: no-repeat;
+  background-size: 15px;
+  left: 6px;
+}
+
+.intro .summary{
+  max-width: 460px;
+  margin-top: -200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.intro .summary p{
+  color: black;
+  font-weight: 600;
+}
+.intro .summary p:first-child{ margin-top: 100px; }
+
+.preamble h3{
+  margin-top: 75px;
+}
+.preamble{
+  position: absolute;
+  top: 700px;
+  left: 0px;
+  width: 75%;
+  padding: 100px 50px;
+  z-index: 3;
+}
+
+
+
+
+
+/************************
+*      STYLE CONTENT    *
+************************/
+
+.explanation,
+.participation,
+.requirements{
+  margin-bottom: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.benefits{ margin-bottom: 200px; margin-left: 50px; }
+
+.explanation::before{
+  background-image: url(../images/photo/arrivage.jpg);
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  content: '';
+  float: left;
+  height: 370px;
+  margin-right: 20px;
+  max-width: 500px;
+  min-width: 200px;
+  width: 100%;
+}
+.participation::before{
+  background-image: url(../images/photo/atelier.jpg);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  content: '';
+  float: right;
+  height: 500px;
+  margin-left: 20px;
+  max-width: 500px;
+  min-width: 200px;
+  width: 100%;
+}
+.requirements::before{
+  background-image: url(../images/photo/plan.jpg);
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  content: '';
+  float: right;
+  height: 570px;
+  margin-left: 20px;
+  max-width: 380px;
+  min-width: 200px;
+  width: 100%;
+}
+.benefits::before{
+  background-image: url(../images/photo/luthier.jpg);
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  content: '';
+  float: left;
+  height: 230px;
+  margin-right: 20px;
+  max-width: 350px;
+  min-width: 200px;
+  width: 100%;
+}
+
+
+.explanation{
+  margin-top: 400px;
+}
+
+.explanation a, .participation a {
+  color: #d34710;
+  font-weight: 100;
+  font-size: 1.6rem;
+}
+
+.explanation a, .participation a:hover{
+  color: #ff9f7c
+}
+
+.requirements p:last-child{
+  margin-top: 100px;
+}
+
+
+
+/*******************
+*   STYLE SIDEBAR  *
+********************/
+.sidebar {
+  right:0px;
+  width:25%;
+  background-image: url(../images/fond/fond_orange.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1%;
+  }
+
+.sidebar .select{
+  margin-top: 60px;
+  padding-top: 75px;
+  background-image: url(../images/icone/select.svg);
+  width: 100%;
+  height: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left 0px;
+  color: #EEFF00;
+}
+
+.sidebar .archives{
+  padding-top: 75px;
+  background-image: url(../images/icone/archive.svg);
+  width: 100%;
+  height: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left 0px;
+  color: #EEFF00;
+}
+
+.sidebar .resources{
+  padding-top: 75px;
+  background-image: url(../images/icone/storage.svg);
+  width: 100%;
+  height: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left 0px;
+  color: #EEFF00;
+}
+
+.wrapper .design-name{margin-bottom: 10px;}
+aside .sidebar ul { padding:0.5em 0 2em 0; }
+aside .wrapper ul:first-child{ margin-top: 60px; }
+.wrapper .view-css{ margin-top: 60px; }
+
+.sidebar ul { padding: 0; }
+.design-selection ul, .design-archives ul, .zen-resources ul { margin-bottom: 150px; }
+
+.sidebar li { display: block;
+  padding: 8px 0 7px 12px;
+  margin: 20px 0px;
+  line-height: 160%;
+  border-bottom: 1px solid #FFF;
+}
+
+.sidebar li a {
+  color: black;
+  font: bold 110% arial, helvectica, sans-serif;
+}
+
+
+.design-selection li a { text-transform: uppercase; font: bold 110% arial, helvectica, sans-serif; display: block; margin: 0; padding: 0; }
+.sidebar .design-name:hover, .sidebar .design-name:hover{ color: #EEFF00; }
+.design-selection { color: #272524; }
+.design-selection .designer-name:link, .design-selection .designer-name:visited {	display: inline; font-weight: normal; text-transform: none; color: #041861; }
+.design-selection .designer-name:hover, .design-selection .designer-name:focus { color: #C8F5F2; }
+
+.design-archives a:hover, .design-archives a:focus { color: #EEFF00; }
+.zen-resources a:hover, .zen-resources a:focus { color: #EEFF00; }
+
+
+
+
+
+
+/***********************
+*      STYLE FOOTER    *
+***********************/
+
+footer {
+  position: absolute;
+  width: 100%;
+  padding: 3em 10%;
+  background: #134347;
+  text-align: center;
+}
+footer a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 40px 0 0 0;
+  margin: 0 1.5em;
+  position: relative;
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
+  -moz-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
+  transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
+}
+footer a:hover, footer a:focus {
+  color: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+}
+footer a:visited {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+
+
