@@ -1,7 +1,7 @@
 # CSSZenGarden
 [CSSZenGarden](https://www.csszengarden.com/tr/francais/)  
 Le lien ci-dessus vous redirigera vers le site CSSZenGarden. Ce site propose un exercice de design afin de mettre en évidence et en pratique le langage CSS.
-L'objectif est de faire comprendre au futur developpeur l'intérêt de séparer le HTML (le fond) du CSS (la forme).
+L'objectif est de faire comprendre au futur développeur l'intérêt de séparer le HTML (le fond) du CSS (la forme).
 
 ## Explication de mon travail
 Le choix de ma thématique s’est porté sur l’envie d’un réparateur de clarinette de mettre en avant le travail de ces prédécesseurs.
