@@ -36,4 +36,4 @@ Rien de très original, je voulais reprendre exactement l’idée de la page 214
  malheureusement je n’ai pas réussi à percer le mystère.  
 
 >*À titre indicatif, ma résolution d’écran est de : ‘1920 x 1080’. Le lien ci-dessous vous donnera un aperçu de mon travail*  
-[Visuel de la page](https://N-BLET/CSSZenGarden)
+[Visuel de la page](https://N-BLET/CSSZenGarden/index.html)
