@@ -317,29 +317,29 @@ abbr[title] {
 
 .intro {
   background-image: url(../images/photo/clarinette.jpg);
-  background-size: cover; /* Utilisation de cover pour couvrir toute la section */
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  min-height: 100vh; /* Hauteur minimale de 100% de la hauteur de la vue */
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 50px; /* Ajout de padding pour aérer le contenu */
+  padding: 50px;
 }
 
 .intro h1 {
   background-image: url(../images/icone/Logo.png);
-  background-position: left 20px center; /* Position du logo à gauche */
+  background-position: left 20px center;
   background-repeat: no-repeat;
   background-size: contain;
   color: black;
-  margin-bottom: 20px; /* Marge inférieure pour séparer du titre suivant */
+  margin-bottom: 20px;
 }
 
 .intro h2 {
-  margin-bottom: 50px; /* Marge inférieure augmentée pour plus d'espace */
+  margin-bottom: 30px;
 }
 
 .intro a {
@@ -347,23 +347,23 @@ abbr[title] {
   background-image: url(../images/icone/download.svg);
   background-repeat: no-repeat;
   background-size: 15px;
-  padding-left: 20px; /* Ajout de padding à gauche pour l'icône de téléchargement */
-  margin-top: 20px; /* Marge supérieure pour séparer du paragraphe suivant */
+  padding-left: 20px;
+  margin-top: 20px;
 }
 
 .intro .summary {
-  max-width: 600px; /* Augmentation de la largeur maximale pour le contenu réactif */
-  margin: 20px auto; /* Centrage horizontal et ajout de marge autour */
+  max-width: 600px;
+  margin: 20px auto;
 }
 
 .intro .summary p {
   color: black;
   font-weight: 600;
-  margin-top: 20px; /* Marge supplémentaire entre les paragraphes */
+  margin-top: 20px;
 }
 
 .intro .summary p:first-child {
-  margin-top: 50px; /* Marge supérieure augmentée pour le premier paragraphe */
+  margin-top: 50px;
 }
 
 /* Média requises pour une adaptation aux différents appareils */
